@@ -1,0 +1,44 @@
+
+
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(28, 135, 228);
+    color: #333;
+
+}
+.tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: aqua;
+    padding: 10px;
+}
+.tab {
+    cursor: pointer;
+    text-align:center;
+    padding: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+.tab:hover {
+background-color: #4e4a4a;
+}
+.content {
+    display: none;
+}
+.content.show {
+    display:block;
+}
+
+h1{
+    color: #000000;
+}
+.text{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    padding-top: 5em;
+    font-weight: 900;
+}
+    

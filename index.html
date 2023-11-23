@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url('UG.jpg');
+            background-position: center;
+            background-size: cover;
+            color: rgb(0, 0, 0);
+            font-style: italic ;
+        }
+        header{
+            text-align: center;
+            background-color: aqua;
+            padding: 1em;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+    
+        }
+        
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1><abbr title="University Of Ghana"  >UG</abbr>|Department Of Computer Science</h1>
+        
+    </header>
+    <div class="tabs">
+        <div class="tab"
+         onclick="openTab('about.html')">Home</div>
+<div class="tab"
+onclick="opentTab('tab2')">Tab  2</div>
+<div  class="tab"
+onclick="opentTab('tab3')">Tab  3</div>
+    </div>
+<div class="content" id="tab1">
+    <p>Tab 1 content</p>
+</div>
+<div class="content" id="tab2">
+    <p>Tab 2 content</p>
+</div>
+<div class="content" id="tab3">
+    <p>Tab 3 content</p>
+</div>
+<script src="script.js"></script>
+        <h2>Welcome to Our Website!</h2>
+        <p>This is the homepage content. You can customize it to suit your needs.</p>
+        
+    <footer>
+        <p><a href="about.html">Learn more about us </a></p>
+        &copy; 2023 Your Website. All rights reserved.
+    </footer>
+</body>
+</html>
