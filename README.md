@@ -28,7 +28,7 @@ NB: it is helpful to create a branch from the main repository.
 12. Now start your project and make it a habit to commit your project when you are done for the day.
 
 
-Adjei Lawrence 11013649
+ADJEI LAWRENCE 11013649
 
 
 
