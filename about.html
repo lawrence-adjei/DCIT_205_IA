@@ -3,11 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>Your Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url('UG.jpg');
+            background-position: center;
+            background-size: cover;
+            color: rgb(0, 0, 0);
+            font-style: italic ;
+            margin: 0%;
+        }
+        header{
+        
+        }
+        
+        footer {
+            background-color: transparent;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position:fixed;
+            bottom: 20px;
+            width:100%;
+            <br>
+            
+        } </style>
+
 </head>
 <body>
-    <h1>About Us</h1>
-    <p>This is  the about page of our website.</p>
-    <p><a href="index.html">Go back to the home page</a></p>
+    
+    <nav>
+        <div class="logo">
+            UG| Department Of Computer Science
+        </div>
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="Sakai.mp4" type="video/mp4">
+        </video>
+        <input type="checkbox" id="click">
+         <label for="click" class="menu-btn">
+         <i class="fas fa-bars"></i>
+         </label>
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="aboutus.html">AboutUs</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="faculty.html">Faculty</a></li>
+            <li><a href="labs.html">Labs</a></li>
+            <li><a href="library.html">Library</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            
+         </ul>
+      </nav>
+     
+ 
+
+      <section id="about">
+        <div class="container">
+          <h2>About Us</h2>
+          <p>Welcome to the Department of Computer Science at [University Name]. We are a leading academic institution dedicated to fostering excellence in computer science education, research, and innovation.</p>
+      
+          <p>Our mission is to empower students with a deep understanding of computer science principles, preparing them for successful careers in a rapidly evolving technological landscape. With a commitment to cutting-edge research, outstanding faculty, and a vibrant learning environment, we strive to make a significant impact on both local and global communities.</p>
+      
+          <h3>Key Features:</h3>
+          <ul>
+            <li><strong>Experienced Faculty:</strong> Our department boasts a team of experienced and dedicated faculty members who are experts in their respective fields. They are committed to providing high-quality education and mentorship to our students.</li>
+            <li><strong>Research Excellence:</strong> We are at the forefront of innovative research in various areas of computer science, from artificial intelligence and machine learning to cybersecurity and data science. Our faculty and students actively contribute to advancing the state of the art in technology.</li>
+            <li><strong>State-of-the-Art Facilities:</strong> Our department is equipped with state-of-the-art laboratories, computing resources, and collaborative spaces, providing students with the tools they need to succeed in their academic and research pursuits.</li>
+          </ul>
+      
+          <p>Whether you are a prospective student, a current member of our academic community, or an industry partner, we invite you to explore the opportunities available in our Department of Computer Science. Join us in shaping the future of technology!</p>
+        </div>
+      </section>
+        
+    <footer>
+        <p><a href="about.html">Learn more about us </a></p>
+        &copy; 2023 Your Website. All rights reserved.
+
+    </footer>
 </body>
 </html>

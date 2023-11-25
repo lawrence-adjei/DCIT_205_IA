@@ -7,7 +7,7 @@
 } 
 nav{
   display: flex;
-  height: 80px;
+  height: 110px;
   width: 100%;
   background: #1b1b1b;
   align-items: center;
@@ -34,7 +34,7 @@ nav ul li a{
   font-size: 15px;
   font-weight: 500;
   padding: 8px 15px;
-  border-radius: 15px;
+  border-radius: 50px;
   letter-spacing: 1px;
   transition: all 0.3s ease;
 }
@@ -125,9 +125,11 @@ input[type="checkbox"]{
         width: 100%;
         height: auto;
     }
+}
 @media (max-aspect-ratio: 16/9){
     .back-video{
         width: auto;
         height: 100%;
     }
 }
+
