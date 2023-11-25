@@ -1,4 +1,4 @@
-# DCIT_205_IA
+# DCIT_205_IA 11013649
 
 
 Welcome to the official website of the Computer Science Department at UNIVERSITY OF GHANA (UG)! We are thrilled to provide you with a digital gateway to our dynamic and innovative academic community. Whether you are a current student, prospective student, faculty member, or simply interested in the exciting world of computer science, our website is designed to be your go-to resource for information, updates, and engagement.
@@ -34,3 +34,8 @@ ADJEI LAWRENCE 11013649
 
 This project has made me test so many elements and i'm getting good with the HTML,CSS,JS.
 It has also enhances my research skills and made it much easier to find very important information i need when coding without breaking a sweat.
+    This project helped me apply my web development skills in a practical context and showcasing my
+ understanding of computer science resources. It was an onteresting experience.
+
+ 
+![Alt text](<Screenshot (15)-1.png>) ![Alt text](<Screenshot (16)-1.png>) ![Alt text](<Screenshot (17)-1.png>) ![Alt text](<Screenshot (18)-1.png>) ![Alt text](<Screenshot (19)-1.png>) ![Alt text](<Screenshot (20)-1.png>) ![Alt text](<Screenshot (21)-1.png>) ![Alt text](<Screenshot (22)-1.png>)
